@@ -1,0 +1,81 @@
+# The Cyber Boardroom Documentation Style Guide
+
+## Core Principles
+
+### Technical Depth
+- Balance technical detail with clear explanations
+- Provide specific implementation examples
+- Include practical use cases
+- Explain technical decisions and trade-offs
+
+### Document Structure
+- Begin with clear problem statement
+- Use descriptive headers
+- Build from high-level concepts to implementation details
+
+### Writing Style
+- Direct and practical tone
+- Technical credibility without excessive formality
+- Active voice
+- Present tense for current features
+
+## Content Organization
+
+### Opening Sections
+- State the challenge or need clearly
+- Explain business context and importance
+- Preview key technical capabilities
+- Set scope and expectations
+
+### Technical Content
+- Include specific implementation details
+- Reference actual tools and technologies
+- Provide configuration examples
+- Explain architectural decisions
+
+### Supporting Information
+- Use diagrams for complex concepts
+- Include code samples when relevant
+- Add practical examples
+- Reference specific use cases
+
+## Language Guidelines
+
+### Technical Accuracy
+- Use precise technical terms
+- Maintain consistency in terminology
+- Include version numbers and specifications
+- Verify all technical claims
+
+### Terms to Avoid
+- Revolutionary/Pioneering
+- Cutting-edge/Bleeding-edge
+- Industry-leading/Best-in-class
+- Game-changing/Disruptive
+- Next-generation
+
+### Preferred Language
+- "Enables/Allows" instead of "Revolutionizes"
+- "Designed for" instead of "Industry-leading"
+- "Supports" instead of "Game-changing"
+- "Implements" instead of "Pioneering"
+
+## Document Types
+
+### Technical Documentation
+- Focus on implementation
+- Include configuration details
+- Provide setup instructions
+- Add troubleshooting guidance
+
+### Architecture Documents
+- Explain design decisions
+- Detail system interactions
+- Include deployment models
+- Specify technical requirements
+
+### Business Documentation
+- Focus on concrete capabilities
+- Include measurable outcomes
+- Provide specific examples
+- Explain technical value in business terms
