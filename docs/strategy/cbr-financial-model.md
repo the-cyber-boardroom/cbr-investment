@@ -79,6 +79,8 @@ Trust-based content sourcing relies on proven expertise and demonstrated value r
 The usage-based compensation structure ensures that providers receive ongoing benefits from their content contributions. Rather than one-time payments or licensing fees, providers benefit from continued usage of their materials, creating a sustainable model for long-term content development and maintenance.
 
 
+# Investment Areas
+
 ## The Cyber Boardroom: Investment Strategy
 
 The Cyber Boardroom's investment strategy focuses on three core areas: 
@@ -89,7 +91,6 @@ The Cyber Boardroom's investment strategy focuses on three core areas:
 
 Each area represents a distinct path to value creation, with investments carefully allocated to maximize impact while maintaining the company's serverless, low-fixed-cost model.
 
-## Investment Areas
 
 ### 1. Stategic Projects
 Stategic Projects investment focuses on creating new billable features and platform capabilities that directly generate customer value. Unlike traditional startups that invest heavily in infrastructure, our development investment centers on creating features that can be deployed in our serverless environment.
