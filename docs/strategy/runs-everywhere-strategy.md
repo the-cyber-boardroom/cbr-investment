@@ -1,4 +1,4 @@
-# The Cyber Boardroom: Runs Everywhere Architecture
+# The Cyber Boardroom: "Runs Everywhere" Architecture
 
 ## Introduction
 
