@@ -1,6 +1,6 @@
 # The Cyber Boardroom: Financial Model and Business Strategy
 
-The Cyber Boardroom pioneers a transformative approach to cybersecurity communication through its innovative "serverless company" model. This groundbreaking platform bridges the critical gap between cybersecurity professionals and business stakeholders while maintaining exceptional operational efficiency. By eliminating traditional fixed costs while maximizing scalability and flexibility, we've created a unique strategic advantage: the ability to develop and grow without the pressure of a financial "kill date" that often forces startups into suboptimal decisions.
+The Cyber Boardroom presents a transformative approach to cybersecurity communication through its innovative "serverless company" model. This platform bridges the critical gap between cybersecurity professionals and business stakeholders while maintaining exceptional operational efficiency. By eliminating traditional fixed costs while maximizing scalability and flexibility, we've created a unique strategic advantage: the ability to develop and grow without the pressure of a financial "kill date" that often forces startups into suboptimal decisions.
 
 Our model is built on four foundational principles that set us apart in the market:
 
@@ -40,9 +40,9 @@ The cost transparency framework provides customers with unprecedented visibility
 A critical element of the model is maintaining strict discipline in development decisions. This framework ensures that development efforts remain focused on creating genuine value while avoiding common pitfalls that often derail startup success, combining rigorous hypothesis testing with strategic principles to guide all development choices.
 
 #### Hypothesis-Driven Development
-Every project, feature, or initiative must begin with a clearly articulated hypothesis about the value it will create. This hypothesis must be specific enough to be testable and measurable, allowing for objective evaluation of success or failure through quantifiable metrics such as improvements in user engagement, reduction in support tickets, or increased usage of platform capabilities.
+Every project, feature, or initiative must begin with a clearly articulated hypothesis about the value it will create. This hypothesis must be specific enough to be testable and measurable, allowing for objective evaluation of success or failure through quantifiable metrics such as a new billable feature, improvements in user engagement, reduction in support tickets, or increased usage of platform capabilities.
 
-Regular hypothesis testing and validation occurs throughout the development cycle as an ongoing process that influences development directions. Teams continuously gather data about feature usage, user feedback, and value delivery, using this information to validate or invalidate their initial hypotheses, enabling early course correction when hypotheses prove incorrect and minimizing resource waste on unproductive paths.
+Regular hypothesis testing and validation occurs throughout the creation and release of multiple MVPs (Minimum Viable Prototypes) during the development cycle, providing an ongoing feedback loop process that influences development directions. Teams continuously gather data about feature usage, user feedback, and value delivery, using this information to validate or invalidate their initial hypotheses, enabling early course correction when hypotheses prove incorrect and minimizing resource waste on unproductive paths.
 
 #### Development Principles
 The resistance to customer-driven feature bloat represents a crucial discipline in the development process, where customer feedback is carefully evaluated against strategic objectives and the broader platform vision. This often means saying "no" to features that might bring short-term customer satisfaction but would create long-term technical debt or strategic misalignment.
@@ -78,26 +78,28 @@ Trust-based content sourcing relies on proven expertise and demonstrated value r
 The usage-based compensation structure ensures that providers receive ongoing benefits from their content contributions. Rather than one-time payments or licensing fees, providers benefit from continued usage of their materials, creating a sustainable model for long-term content development and maintenance.
 
 
-## Investment Strategy
+## Investment Funds Allocation
 
-The Cyber Boardroom's investment strategy focuses on three core areas: 
+The Cyber Boardroom's investment strategy targets £250,000 across three core areas, prioritizing billable feature development while maintaining our serverless model:
 
- - Stategic Projects
- - Market Discovery
- - Content Creation
+- **Strategic Projects (60%)**:  Development of platform features, integrations, and analysis tools that directly generate customer value and revenue
+- **Market Discovery (20%)**: Customer research and use case validation to ensure market fit and guide development priorities
+- **Content Creation (20%)**: Strategic development of educational resources and best practices that enhance platform value and user success
 
-Each area represents a distinct path to value creation, with investments carefully allocated to maximize impact while maintaining the company's serverless, low-fixed-cost model.
+All investments align with our serverless philosophy, ensuring minimal fixed costs while maximizing scalability and customer value creation..
 
 
 ### 1. Stategic Projects
-Stategic Projects investment focuses on creating new billable features and platform capabilities that directly generate customer value. Unlike traditional startups that invest heavily in infrastructure, our development investment centers on creating features that can be deployed in our serverless environment.
+Stategic Projects investment focuses on creating new billable features and platform capabilities that directly generate customer value. 
+
+Unlike traditional startups that invest heavily in infrastructure, our development investment centers on creating features that can be deployed in our serverless environment.
 
 Primary development investments include:
 
-- Core Platform Features: Developing new billable units that expand platform capabilities
-- Integration Components: Building connectors to third-party services and data sources
-- Analysis Tools: Creating new ways to process and present information
-- Automation Systems: Developing systems that increase efficiency and scalability
+- **Core Platform Features**: Developing new billable units that expand platform capabilities
+- **Integration Components**: Building connectors to third-party services and data sources
+- **Analysis Tools**: Creating new ways to process and present information
+- **Automation Systems**: Developing systems that increase efficiency and scalability
 
 The key principle behind development investment is that each project must create a billable feature - something customers can actively choose to pay for. This ensures that development efforts directly contribute to revenue generation rather than creating overhead.
 
@@ -105,10 +107,10 @@ The key principle behind development investment is that each project must create
 Market discovery investment focuses on finding and validating new use cases and customer segments. Rather than traditional marketing spend, this investment centers on understanding customer needs and proving value in new contexts.
 
 Key areas include:
-- Use Case Exploration: Finding new applications for the platform's capabilities
-- Customer Journey Mapping: Understanding how different users interact with the system
-- Value Validation: Testing and measuring the impact of platform features
-- Feedback Systems: Creating mechanisms for gathering and acting on user input
+- **Use Case Exploration**: Finding new applications for the platform's capabilities
+- **Customer Journey Mapping**: Understanding how different users interact with the system
+- **Value Validation**: Testing and measuring the impact of platform features
+- **Feedback Systems**: Creating mechanisms for gathering and acting on user input
 
 This investment area is critical because it helps identify which features to develop next and ensures that development efforts align with real market needs. The focus is on discovering natural product-market fit rather than forcing adoption through marketing spend.
 
@@ -117,10 +119,10 @@ Content investment creates the knowledge base and educational materials that mak
 
 Content investment focuses on:
 
-- Educational Resources: Creating materials that help users understand cybersecurity concepts
-- Best Practice Guides: Developing frameworks for effective platform use
-- Use Case Templates: Building reusable patterns for common scenarios
-- Integration Guides: Helping users connect the platform with their existing systems
+- **Educational Resources**: Creating materials that help users understand cybersecurity concepts
+- **Best Practice Guides**: Developing frameworks for effective platform use
+- **Use Case Templates**: Building reusable patterns for common scenarios
+- **Integration Guides**: Helping users connect the platform with their existing systems
 
 Content investment is strategic because it reduces support costs while increasing user success. Well-designed content helps users get more value from the platform while requiring less direct assistance.
 
