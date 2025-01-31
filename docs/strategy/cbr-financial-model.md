@@ -207,6 +207,7 @@ Our pricing structure is designed to maintain perfect alignment between customer
 - **Value-aligned markups**: Premium features and enhanced capabilities carry markups proportional to their value delivery, with pricing tiers that reflect the additional benefits and capabilities provided. Each markup is justified by measurable improvements in efficiency, capability, or outcomes.
 - **Transparent cost structure**: Every charge is fully visible and explained, with detailed breakdowns of usage patterns, applied rates, and value delivered. Customers receive comprehensive reporting that connects costs directly to business outcomes and platform benefits.
 - **Customer control**: Users maintain complete control over their spending through customizable usage limits, feature selection, and real-time monitoring tools. Built-in alerts and automated controls prevent unexpected charges while enabling flexible scaling based on business needs.
+- **Dynamic cost pass-through**: Third-party costs, particularly for LLM services, are passed directly to customers with consistent markup rates, ensuring they benefit from provider price reductions while maintaining transparency about any increases. This approach aligns platform economics with market dynamics and reinforces our commitment to value-based pricing.
 
 
 ## Customer Acquisition Strategy
@@ -236,8 +237,6 @@ Quality-driven decisions emerge from the freedom to prioritize excellence over s
 ## Operational Metrics
 
 Our operational metrics framework provides comprehensive visibility into all aspects of platform performance and business health. These six core areas of measurement ensure we maintain alignment with our serverless philosophy while tracking progress toward strategic objectives. Each metric category is designed to provide actionable insights that drive continuous improvement and value delivery.
-
-## Core Metrics
 
 ### Paid Features
 Tracking the direct value delivery and usage of revenue-generating capabilities:
@@ -282,7 +281,11 @@ Monitoring the financial health and growth of the platform:
 - **Growth patterns**: Tracks revenue growth trends across different customer segments, features, and market areas.
 
 ## Conclusion
-The Cyber Boardroom represents a paradigm shift in both cybersecurity communication and technology company operations. Our serverless model, combined with our focus on bridging the critical gap between technical and business stakeholders, creates a unique value proposition in the market. By maintaining strict development discipline, ensuring direct cost-value correlation, and leveraging time flexibility, we've created a sustainable foundation for long-term success.
+The Cyber Boardroom represents a paradigm shift in both cybersecurity communication and technology company operations. 
+
+Our serverless model, combined with our focus on bridging the critical gap between technical and business stakeholders, creates a unique value proposition in the market. 
+
+By maintaining strict development discipline, ensuring direct cost-value correlation, and leveraging time flexibility, we've created a sustainable foundation for long-term success.
 
 Key differentiating factors that position us for success include:
 
