@@ -8,6 +8,7 @@ on:
 env:
   GIT__BRANCH      : 'dev'
   RELEASE_TYPE     : 'minor'  
+  PACKAGE_NAME     : 'cbr_investment'
 
 jobs:
 

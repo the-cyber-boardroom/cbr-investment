@@ -1,0 +1,9 @@
+[tool.poetry]
+name        = "cbr-investment"
+version     = "v0.1.0"
+description = "CBR - Investment"
+authors     = ["Dinis Cruz <dinis.cruz@owasp.org>"]
+license     = "Apache 2.0"
+readme      = "README.md"
+homepage    = "https://github.com/the-cyber-boardroom/cbr-investment"
+repository  = "https://github.com/the-cyber-boardroom/cbr-investment"
