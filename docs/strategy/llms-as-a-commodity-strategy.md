@@ -8,6 +8,35 @@ This strategy aligns with Simon Wardley's observation that components naturally 
 
 The platform creates sustainable advantages through a provider-agnostic architecture, sophisticated prompt engineering with graph-based knowledge representation, and advanced multi-model orchestration. This approach recognizes that while individual models are rapidly commoditizing, the intelligence about their optimal use, orchestration, and integration represents a significant value creation opportunity.
 
+## Strategic Positioning Through Wardley Mapping
+
+To illustrate The Cyber Boardroom's strategic approach to LLMs, let's examine two contrasting Wardley Maps that demonstrate different positions in the value chain:
+
+### The Cyber Boardroom - LLMs as Commodity Strategy 
+<img width="734" alt="Image" src="https://github.com/user-attachments/assets/ea0b936b-09ba-46ef-bc2e-77379c400834" />
+This map reveals The Cyber Boardroom's strategic positioning, where value creation happens primarily through Multi-Model Orchestration and sophisticated Prompt Engineering, treating LLMs themselves as commodity components. Key strategic elements include:
+
+- Positioning core Business Value at the top of the chain
+- Using Multi-Model Orchestration as a key differentiator
+- Leveraging Prompt Engineering as a strategic capability
+- Implementing Model Selection rather than model development
+- Treating LLM APIs and Base Models as commodities
+
+This approach creates sustainable competitive advantage by building value above the commodity layer, focusing on orchestration and integration rather than model development.
+
+### Traditional AI Startup - Custom Model Approach
+<img width="742" alt="Image" src="https://github.com/user-attachments/assets/1fbb8930-a855-4a24-ad1a-e782f5decbc4" />
+In contrast, this map shows the typical approach taken by AI startups that focus on developing custom models. This strategy involves:
+
+- Creating Business Value through Custom AI Solutions
+- Heavy investment in Model Fine-tuning
+- Dependence on specialiaed Training Data
+- Complex Model Architecture development
+
+This approach carries higher risk as it competes directly in areas that are rapidly commoditizing, requiring significant ongoing investment in model development and maintenance.
+
+The contrast between these approaches highlights The Cyber Boardroom's strategic advantage: by treating LLMs as commodities and focusing on higher-order value creation through orchestration and integration, the platform positions itself to benefit from, rather than compete with, the continuing evolution and commoditization of language models
+
 ## Core Strategy Components
 
 ### 1. Provider Integration Framework
@@ -26,68 +55,6 @@ The Relevant Information component implements a graph-based knowledge representa
 
 Query Processing represents the final layer of the architecture, where natural language understanding combines with intent classification to ensure accurate interpretation of user requests. The system maintains efficiency through intelligent optimization while ensuring that each response meets quality and relevance requirements.
 
-
-```mermaid
-
-flowchart TB
-    subgraph "Input Layer"
-        U["User Query"]
-        ONT["Query Ontology"]
-        E["User Persona"]
-    end
-
-    subgraph "Query Processing"
-        QP["Query Processing LLM"]
-        QG["Query Semantic Graph"]
-        U --> QP
-        ONT --> QP
-        QP --> QG
-    end
-
-    subgraph "Knowledge Graph Layer"
-        G["Semantic Knowledge Graph"]
-        S["Source Data"]
-        S --> G
-        QG --> G
-    end
-
-    subgraph "LLM Processing"
-        L["Main LLM Engine"]
-        O["Generated Response"]
-        
-        G --> L
-        E --> L
-        L --> O
-    end
-
-    subgraph "Quality Verification"
-        QL["Quality Control LLM"]
-        O --> QL
-        VR["Verified Response"]
-        QL --> VR
-    end
-
-    subgraph "User Interaction"
-        UR["User Response"]
-        UF["User Feedback"]
-        VR --> UR
-        UR --> UF
-    end
-
-    subgraph "Provenance Tracking"
-        T["Tracking System"]
-        L --> |Logs| T
-        QL --> |Logs| T
-        UF --> T
-    end
-
-    style G fill:#bbf,stroke:#333
-    style QG fill:#bbf,stroke:#333
-    style L fill:#f96,stroke:#333
-    style QP fill:#f96,stroke:#333
-    style QL fill:#f96,stroke:#333
-    style T fill:#9c9,stroke:#333
-```
 ### 3. Advanced Graph Processing Architecture
 
 As LLMs evolve toward commodity status following Wardley's evolution patterns, the platform creates differentiated value through its sophisticated approach to knowledge graph processing and integration. This capability becomes increasingly important as basic LLM capabilities standardize, representing a higher-order component in the value chain.
@@ -187,3 +154,123 @@ The platform's architecture anticipates these changes through provider-agnostic 
 The Cyber Boardroom's LLM strategy represents a sophisticated application of Wardley Mapping principles to the rapidly evolving AI landscape. By treating LLMs as evolving commodities while creating value through higher-order capabilities, the platform maintains sustainable competitive advantages while benefiting from continuing market evolution.
 
 The strategy's emphasis on provider independence, sophisticated optimization, and strong provenance tracking creates unique capabilities that become more valuable as basic model capabilities standardize. Through disciplined development, comprehensive risk management, and evolution-aware architecture, the platform delivers consistent value while adapting to market changes, positioning it for long-term success in the enterprise AI market.
+
+# Diagrams
+
+####  Prompt Engineering Architecture
+
+```mermaid
+
+%%{init: { 'themeVariables': { 'fontFamily': 'monospace', 'fontSize': '10px'} }}%%
+
+flowchart TB
+    subgraph "Input Layer"
+        U["User Query"]
+        ONT["Query Ontology"]
+        E["User Persona"]
+    end
+
+    subgraph "Query Processing"
+        QP["Query Processing LLM"]
+        QG["Query Semantic Graph"]
+        U --> QP
+        ONT --> QP
+        QP --> QG
+    end
+
+    subgraph "Knowledge Graph Layer"
+        G["Semantic Knowledge Graph"]
+        S["Source Data"]
+        S --> G
+        QG --> G
+    end
+
+    subgraph "LLM Processing"
+        L["Main LLM Engine"]
+        O["Generated Response"]
+        
+        G --> L
+        E --> L
+        L --> O
+    end
+
+    subgraph "Quality Verification"
+        QL["Quality Control LLM"]
+        O --> QL
+        VR["Verified Response"]
+        QL --> VR
+    end
+
+    subgraph "User Interaction"
+        UR["User Response"]
+        UF["User Feedback"]
+        VR --> UR
+        UR --> UF
+    end
+
+    subgraph "Provenance Tracking"
+        T["Tracking System"]
+        L --> |Logs| T
+        QL --> |Logs| T
+        UF --> T
+    end
+
+    style G fill:#bbf,stroke:#333,stroke-width:1px
+    style QG fill:#bbf,stroke:#333
+    style L fill:#f96,stroke:#333
+    style QP fill:#f96,stroke:#333
+    style QL fill:#f96,stroke:#333
+    style T fill:#9c9,stroke:#333
+```
+
+### Wardley maps
+
+#### The Cyber Boardroom - LLMs as Commodity Strategy 
+
+
+
+```wardleymap
+
+component Business Value [0.95, 0.45]
+component Multi-Model Orchestration [0.74, 0.47] label [17.28, -18.94]
+component Prompt Engineering [0.54, 0.32] label [-27.39, 8.99]
+component Model Selection [0.45, 0.59] label [10.58, -18.94]
+component LLM APIs [0.25, 0.72]
+component Base Models [0.15, 0.82] label [11.70, 0.05]
+
+Business Value->Cyber Translation
+Multi-Model Orchestration->Model Selection
+Model Selection->LLM APIs
+LLM APIs->Base Models
+Prompt Engineering->Multi-Model Orchestration
+
+evolution Genesis->Custom-built->Product->Commodity
+
+size [740,400] 
+Business Value->Multi-Model Orchestration
+```
+
+#### Traditional AI Startup - Custom Model Approach
+
+```wardleymap
+
+component Business Value [0.95, 0.45]
+component Custom AI Solution [0.79, 0.26] label [-53.08, -23.40]
+component Prompt Engineering [0.59, 0.28] label [-27.39, 8.99]
+component Model Fine-tuning [0.55, 0.41] label [11.70, -10.00]
+component Training Data [0.39, 0.25] label [-32.98, 26.86]
+component Model Architecture [0.31, 0.46] label [-56.43, 2.29]
+component Base Models [0.15, 0.82]
+
+Business Value->Custom AI Solution
+Custom AI Solution->Model Fine-tuning
+Model Fine-tuning->Training Data
+Model Fine-tuning->Model Architecture
+Model Architecture->Base Models
+
+evolution Genesis->Custom-built->Product->Commodity
+
+size [750,400]
+Prompt Engineering->Custom AI Solution
+```
+
