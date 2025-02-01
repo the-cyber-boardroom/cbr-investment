@@ -14,6 +14,7 @@ To illustrate The Cyber Boardroom's strategic approach to LLMs, let's examine tw
 
 ### The Cyber Boardroom - LLMs as Commodity Strategy 
 <img width="734" alt="Image" src="https://github.com/user-attachments/assets/ea0b936b-09ba-46ef-bc2e-77379c400834" />
+
 This map reveals The Cyber Boardroom's strategic positioning, where value creation happens primarily through Multi-Model Orchestration and sophisticated Prompt Engineering, treating LLMs themselves as commodity components. Key strategic elements include:
 
 - Positioning core Business Value at the top of the chain
@@ -26,6 +27,7 @@ This approach creates sustainable competitive advantage by building value above 
 
 ### Traditional AI Startup - Custom Model Approach
 <img width="742" alt="Image" src="https://github.com/user-attachments/assets/1fbb8930-a855-4a24-ad1a-e782f5decbc4" />
+
 In contrast, this map shows the typical approach taken by AI startups that focus on developing custom models. This strategy involves:
 
 - Creating Business Value through Custom AI Solutions
