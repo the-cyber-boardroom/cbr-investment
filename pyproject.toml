@@ -1,6 +1,6 @@
 [tool.poetry]
 name        = "cbr-investment"
-version     = "v.0.6"
+version     = "v.0.7"
 description = "CBR - Investment"
 authors     = ["Dinis Cruz <dinis.cruz@owasp.org>"]
 license     = "Apache 2.0"
