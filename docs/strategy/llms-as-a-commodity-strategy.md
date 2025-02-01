@@ -28,56 +28,65 @@ Query Processing represents the final layer of the architecture, where natural l
 
 
 ```mermaid
-flowchart TD
-    subgraph "Prompt Components"
+
+flowchart TB
+    subgraph "Input Layer"
         U["User Query"]
-        R["Relevant Information<br>(Graph-Based)"]
-        E["Environmental Context"]
-        P["Personalization Parameters"]
+        ONT["Query Ontology"]
+        E["User Persona"]
+    end
+
+    subgraph "Query Processing"
+        QP["Query Processing LLM"]
+        QG["Query Semantic Graph"]
+        U --> QP
+        ONT --> QP
+        QP --> QG
     end
 
     subgraph "Knowledge Graph Layer"
         G["Semantic Knowledge Graph"]
-        R --> |References| G
-    end
-
-    subgraph "Context Layer"
-        C1["System Instructions"]
-        C2["Output Format"]
-        C3["Behavioral Guidelines"]
-        E --> C1
-        E --> C2
-        E --> C3
-    end
-
-    subgraph "Personalization Layer"
-        P1["User Preferences"]
-        P2["Audience Profile"]
-        P3["Communication Style"]
-        P --> P1
-        P --> P2
-        P --> P3
+        S["Source Data"]
+        S --> G
+        QG --> G
     end
 
     subgraph "LLM Processing"
-        L["LLM Engine"]
-        U --> L
-        R --> L
-        E --> L
-        P --> L
+        L["Main LLM Engine"]
         O["Generated Response"]
+        
+        G --> L
+        E --> L
         L --> O
+    end
+
+    subgraph "Quality Verification"
+        QL["Quality Control LLM"]
+        O --> QL
+        VR["Verified Response"]
+        QL --> VR
+    end
+
+    subgraph "User Interaction"
+        UR["User Response"]
+        UF["User Feedback"]
+        VR --> UR
+        UR --> UF
     end
 
     subgraph "Provenance Tracking"
         T["Tracking System"]
         L --> |Logs| T
-        O --> |Records| T
+        QL --> |Logs| T
+        UF --> T
     end
 
-style G fill:#bbf,stroke:#333,stroke-width:2px
-style L fill:#f96,stroke:#333,stroke-width:2px
-style T fill:#9c9,stroke:#333,stroke-width:2px
+    style G fill:#bbf,stroke:#333
+    style QG fill:#bbf,stroke:#333
+    style L fill:#f96,stroke:#333
+    style QP fill:#f96,stroke:#333
+    style QL fill:#f96,stroke:#333
+    style T fill:#9c9,stroke:#333
 ```
 ### 3. Advanced Graph Processing Architecture
 
