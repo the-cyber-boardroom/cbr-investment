@@ -53,9 +53,17 @@ For air-gapped installations, the platform provides complete functionality throu
 
 The platform's prompt engineering architecture represents a sophisticated layer built above basic LLM capabilities, creating value through intelligent orchestration and optimization of model interactions. This architecture comprises four fundamental components that work together to ensure optimal results while maintaining efficiency and control.
 
+**i) Relevant Information**  
 The Relevant Information component implements a graph-based knowledge representation system that captures and organizes context for each interaction. This system dynamically integrates information from multiple sources, mapping semantic relationships while maintaining strict source verification and validation. The graph structure enables efficient information retrieval and ensures that models receive precisely the context needed for each task.
 
-Query Processing represents the final layer of the architecture, where natural language understanding combines with intent classification to ensure accurate interpretation of user requests. The system maintains efficiency through intelligent optimization while ensuring that each response meets quality and relevance requirements.
+**ii) Environmental Context**  
+Environmental Context management handles the complex task of configuring model behavior and output characteristics. This includes detailed system instructions that guide model behavior, specific output format requirements that ensure consistency across different models and providers, and comprehensive behavioral guidelines that maintain alignment with organizational requirements. The system also manages performance requirements and quality thresholds, ensuring that each interaction meets established standards.
+
+**iii) Personalization Parameters**  
+Personalization Parameters enable the platform to adapt model interactions based on user characteristics and requirements. This includes detailed user preferences and profiles, specific audience characteristics that influence communication style, and cultural considerations that ensure appropriate content delivery. The system also handles domain-specific adaptations, ensuring that responses align with industry-specific terminology and requirements.
+
+**iv) Query Processing**  
+Query Processing represents the final layer of the architecture, where natural language understanding combines with intent classification to ensure accurate interpretation of user requests. This component integrates context from other architectural elements while managing response generation and quality assurance. The system maintains efficiency through intelligent optimization while ensuring that each response meets quality and relevance requirements.
 
 ### 3. Advanced Graph Processing Architecture
 
