@@ -51,11 +51,22 @@ For air-gapped installations, the platform provides complete functionality throu
 
 ### 2. Prompt Engineering Architecture
 
-The platform's prompt engineering architecture represents a sophisticated layer built above basic LLM capabilities, creating value through intelligent orchestration and optimization of model interactions. This architecture comprises four fundamental components that work together to ensure optimal results while maintaining efficiency and control.
+The platform's prompt engineering architecture implements a sophisticated multi-layer system for processing queries and generating responses, with dedicated components for knowledge management, quality control, and user interaction tracking.
 
-The Relevant Information component implements a graph-based knowledge representation system that captures and organizes context for each interaction. This system dynamically integrates information from multiple sources, mapping semantic relationships while maintaining strict source verification and validation. The graph structure enables efficient information retrieval and ensures that models receive precisely the context needed for each task.
+**Input Processing**  
+The input layer handles three key elements: the user's query, query ontology for semantic understanding, and user persona information. These components work together to ensure accurate query interpretation and appropriate response contextualization. The Query Processing LLM transforms raw queries into semantic graphs, enabling integration with the platform's knowledge base.
 
-Query Processing represents the final layer of the architecture, where natural language understanding combines with intent classification to ensure accurate interpretation of user requests. The system maintains efficiency through intelligent optimization while ensuring that each response meets quality and relevance requirements.
+**Knowledge Integration**  
+The Knowledge Graph Layer serves as the system's core intelligence component, combining source data with query-specific semantic graphs. This creates a rich context for response generation while maintaining clear provenance of information. The semantic graph structure enables efficient information retrieval and ensures that responses are grounded in verified source material.
+
+**Response Generation**  
+The Main LLM Engine generates responses by combining the semantic knowledge graph with user persona information. This ensures that responses are not only accurate but also appropriately tailored to the user's context and needs. The system maintains strict tracking of all LLM interactions, enabling complete provenance of generated content.
+
+**Quality Assurance**  
+A dedicated Quality Control LLM verifies generated responses before delivery to users. This additional layer ensures response quality, accuracy, and appropriateness. The verification process considers both the technical accuracy and the contextual appropriateness of responses, creating a robust quality control system.
+
+**User Interaction and Feedback**  
+The system captures and processes user responses and feedback, feeding this information back into the provenance tracking system. This creates a continuous improvement loop that enhances response quality and system understanding over time. The tracking system maintains comprehensive logs of all system interactions, from initial query processing through response generation and user feedback.
 
 ### 3. Advanced Graph Processing Architecture
 
