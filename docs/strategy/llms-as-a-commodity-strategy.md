@@ -43,7 +43,7 @@ The contrast between these approaches highlights The Cyber Boardroom's strategic
 
 ### 1. Provider Integration Framework
 
-The platform's integration framework treats LLMs as interchangeable components, aligning with Wardley's principle of leveraging commodity components while creating value at higher levels of abstraction. This approach enables seamless integration with major LLM providers (including OpenAI, Anthropic, Google, and open-source models) while supporting self-hosted and air-gapped deployments through a unified API interface that handles request/response protocols, token management, error handling, and streaming responses.
+The platform's integration framework treats LLMs as interchangeable components, aligning with Wardley's principle of leveraging commodity components while creating value at higher levels of abstraction. This approach enables seamless integration with major LLM providers (including OpenAI, Anthropic, Google, and open-source models) while also supporting self-hosted and air-gapped deployments through a unified API interface that handles request/response protocols, token management, error handling, and streaming responses.
 
 The architecture anticipates continuing market evolution by maintaining strict provider independence through standardized interfaces. This allows the platform to leverage provider competition and benefit from continuing cost reductions in inference, positioning it to take advantage of the natural evolution toward commoditization that Wardley Mapping predicts for maturing technologies. The framework's dynamic provider selection capabilities automatically optimize model choice based on real-time analysis of performance metrics, cost efficiency, reliability, and response quality.
 
