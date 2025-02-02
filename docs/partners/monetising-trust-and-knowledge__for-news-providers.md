@@ -1,27 +1,27 @@
 # Monetising Trust and Knowledge: How News Providers can leverage Personalised Semantic Graphs
 
-The rise of AI-driven content consumption is reshaping how news organisations deliver and monetise information. As platforms, search engines, and AI-powered assistants increasingly rely on structured, machine-readable content, publishers must adapt to remain competitive. 
+The rise of GenAI-driven content consumption is reshaping how news organisations deliver and monetise information. As platforms, search engines, and GenAI-powered assistants increasingly rely on structured, machine-readable content, publishers must adapt to remain competitive. 
 
-This document explores how news organisations, cybersecurity publishers, and technical content providers can leverage The [Cyber Boardroom's Personalised News Feed Architecture](https://github.com/the-cyber-boardroom/cbr-investment/blob/dev/docs/strategy/personalised-news-feed-architecture.md) to transform their operations. This architecture provides the foundation for semantic knowledge graphs, trust-as-a-service models, and API-first content delivery, enabling publishers to create new revenue opportunities while maintaining editorial integrity.
+This document explores how news organisations, cybersecurity publishers, and technical content providers can leverage the [Cyber Boardroom's Personalised News Feed Architecture](https://github.com/the-cyber-boardroom/cbr-investment/blob/dev/docs/strategy/personalised-news-feed-architecture.md) to transform their operations. This architecture provides the foundation for semantic knowledge graphs, trust-as-a-service models, and API-first content delivery, enabling publishers to create new revenue opportunities while maintaining editorial integrity.
 
-A key focus of this analysis is a case study on The Guardian and The Hacker News (THN) — two organisations with strong reputations for investigative journalism and cybersecurity reporting. While both have already embraced aspects of AI-driven transformation, their approaches offer valuable lessons for any content provider looking to scale trust, structure knowledge, and optimise for AI-driven ecosystems.
+A key focus of this analysis is a case study on The Guardian and The Hacker News (THN) — two organisations with strong reputations for investigative journalism and cybersecurity reporting. While both have already embraced aspects of GenAI-driven transformation, their approaches offer valuable lessons for any content provider looking to scale trust, structure knowledge, and optimise for GenAI-driven ecosystems.
 
 By leveraging [The Cyber Boardroom](https://www.thecyberboardroom.com/)'s technology and workflows media organisations can implement:  
 
 - **LLM-ready content services** that enhance machine readability and structured intelligence  
 - **Trust-as-a-service offerings** that formalise journalistic integrity into scalable verification tools  
 - **API-first architectures** that enable more flexible content distribution and monetisation  
-- **Usage-based pricing models** that align revenue with engagement and AI consumption  
+- **Usage-based pricing models** that align revenue with engagement and GenAI consumption  
 
-With these capabilities, media organisations can extend their influence, future-proof their operations, and unlock new business models** optimised for AI-driven content consumption.
+With these capabilities, media organisations can extend their influence, future-proof their operations, and unlock new business models optimised for GenAI-driven content consumption.
 
-Whether the goal is strengthening trust networks, improving content discovery, or creating new commercial opportunities, this framework—powered by Personalised Semantic Graphs and AI-driven knowledge curation offers a path forward for organisations publishing cybersecurity, investigative, and technical content in the AI era.
+Whether the goal is strengthening trust networks, improving content discovery, or creating new commercial opportunities, this framework, powered by [Persona-driven Semantic Graphs](https://github.com/the-cyber-boardroom/cbr-investment/blob/dev/docs/strategy/persona-driven-communication-strategy.md) and GenAI-driven knowledge curation, offers a path forward for organisations publishing cybersecurity, investigative, and technical content in the GenAI era.
 
 
 
 ## Value Creation Framework
 
-The evolution of AI-driven content consumption, particularly through Large Language Models (LLMs), creates unprecedented opportunities for content providers to transform their traditional publishing operations into sophisticated knowledge services. This transformation enables providers to unlock new value streams while maintaining their core strengths in content creation and verification.
+The evolution of GenAI-driven content consumption, particularly through Large Language Models (LLMs), creates unprecedented opportunities for content providers to transform their traditional publishing operations into sophisticated knowledge services. This transformation enables providers to unlock new value streams while maintaining their core strengths in content creation and verification.
 
 ### Knowledge Graph Services
 
@@ -73,37 +73,37 @@ The core API structure implements three primary service domains:
 │       ├── indirect/           # Derived connections
 │       └── temporal/           # Time-based relationships
 ├── verify/
-│   ├── facts/{id}/            # Fact verification
-│   │   ├── status/            # Current validity
-│   │   ├── evidence/          # Supporting data
-│   │   └── history/           # Verification timeline
-│   ├── sources/{id}/          # Source credibility
-│   │   ├── reputation/        # Trust metrics
-│   │   ├── history/           # Past performance
-│   │   └── relationships/     # Connection network
-│   └── chains/{id}/           # Verification trails
-│       ├── steps/             # Verification process
-│       ├── evidence/          # Supporting materials
-│       └── anchors/           # Trust reference points
-└── analysis/
-    ├── impact/{id}/           # Decision impact
-    │   ├── metrics/           # Impact measurements
-    │   ├── predictions/       # Future implications
-    │   └── tracking/          # Ongoing monitoring
-    ├── trends/{topic}/        # Topic evolution
-    │   ├── trajectory/        # Development path
-    │   ├── velocity/          # Change metrics
-    │   └── correlations/      # Related patterns
+│   ├── facts/{id}/             # Fact verification
+│   │   ├── status/             # Current validity
+│   │   ├── evidence/           # Supporting data
+│   │   └── history/            # Verification timeline
+│   ├── sources/{id}/           # Source credibility
+│   │   ├── reputation/         # Trust metrics
+│   │   ├── history/            # Past performance
+│   │   └── relationships/      # Connection network
+│   └── chains/{id}/            # Verification trails
+│       ├── steps/              # Verification process
+│       ├── evidence/           # Supporting materials
+│       └── anchors/            # Trust reference points
+└── analysis/ 
+    ├── impact/{id}/            # Decision impact
+    │   ├── metrics/            # Impact measurements
+    │   ├── predictions/        # Future implications
+    │   └── tracking/           # Ongoing monitoring
+    ├── trends/{topic}/         # Topic evolution
+    │   ├── trajectory/         # Development path
+    │   ├── velocity/           # Change metrics
+    │   └── correlations/       # Related patterns
     └── compliance/{framework}/ # Regulatory alignment
         ├── requirements/       # Framework specs
-        ├── evidence/          # Compliance proof
-        └── gaps/              # Missing elements
+        ├── evidence/           # Compliance proof
+        └── gaps/               # Missing elements
 ```
 
 This structured API enables several key capabilities that transform traditional content delivery into sophisticated knowledge services:
 
 1. **Content Management**
-   The content management layer provides comprehensive access to all content assets through a sophisticated versioning system. It combines direct access to raw article content with powerful version control mechanisms, enabling sophisticated semantic knowledge graph operations optimised for AI consumption. The system implements advanced relationship mapping across content repositories, creating a rich network of interconnected information that enhances content value and discoverability.
+   The content management layer provides comprehensive access to all content assets through a sophisticated versioning system. It combines direct access to raw article content with powerful version control mechanisms, enabling sophisticated semantic knowledge graph operations optimised for GenAI consumption. The system implements advanced relationship mapping across content repositories, creating a rich network of interconnected information that enhances content value and discoverability.
 
 2. **Verification Services**
    At the core of the trust infrastructure, verification services deliver real-time fact checking capabilities supported by comprehensive evidence trails. The system implements continuous source credibility assessment and monitoring, maintaining detailed reputation scores and historical performance metrics. Through complete verification chain management, it establishes clear provenance for all verified information, enabling users to trace and validate every step in the verification process.
@@ -128,11 +128,11 @@ Each API endpoint implements consistent patterns that ensure reliable, secure, a
 5. **Versioning and Deprecation Management**
    API versioning follows semantic versioning principles with clear deprecation policies and migration paths. The system maintains backward compatibility within major versions while providing detailed documentation of changes and automated migration tools for version transitions.
 
-This comprehensive API architecture provides content providers with a solid foundation for delivering value-added services while maintaining clear separation between different types of operations. The structured approach ensures scalability and maintainability through consistent implementation patterns, enabling sophisticated integration with AI-driven consumption patterns while supporting future platform evolution.
+This comprehensive API architecture provides content providers with a solid foundation for delivering value-added services while maintaining clear separation between different types of operations. The structured approach ensures scalability and maintainability through consistent implementation patterns, enabling sophisticated integration with GenAI-driven consumption patterns while supporting future platform evolution.
 
 ### Knowledge Graph Implementation
 
-Content providers should structure their knowledge graphs to support multiple use cases, implementing a sophisticated semantic layer that enables both traditional content operations and advanced AI-driven analysis. This implementation creates a rich, interconnected network of information that grows more valuable over time through continuous relationship mapping and validation.
+Content providers should structure their knowledge graphs to support multiple use cases, implementing a sophisticated semantic layer that enables both traditional content operations and advanced GenAI-driven analysis. This implementation creates a rich, interconnected network of information that grows more valuable over time through continuous relationship mapping and validation.
 
 1. **Content Relationships**
    The content relationship layer establishes dynamic connections across the information landscape through comprehensive topic evolution tracking, identifying emerging patterns and narrative developments. It implements sophisticated source correlation mapping that reveals hidden connections between content elements while building detailed expert opinion networks. Through impact assessment chains, the system tracks how information flows through the network and influences decision-making processes, creating a rich understanding of content significance and effectiveness.
@@ -174,7 +174,7 @@ The platform implements sophisticated usage-based pricing models that align serv
 The platform's innovative approach catalyses fundamental changes in how content providers operate and deliver value, driving a significant evolution in the publishing industry's technical capabilities and business models. This transformation creates new opportunities while establishing higher standards for content delivery and verification.
 
 1. **Content Transformation**
-   The shift from traditional article-centric publishing to knowledge-centric content delivery represents a fundamental evolution in how providers create and distribute information. Through sophisticated integration of machine-readable semantic layers, providers transform static content into dynamic knowledge assets that grow more valuable over time. This transformation emphasises enhanced relationship mapping capabilities that reveal hidden connections and patterns across content collections, while automated trust tracking systems maintain clear provenance and verification trails throughout the content lifecycle. The evolution enables providers to create richer, more valuable content products while establishing stronger competitive positions in the emerging AI-driven content marketplace.
+   The shift from traditional article-centric publishing to knowledge-centric content delivery represents a fundamental evolution in how providers create and distribute information. Through sophisticated integration of machine-readable semantic layers, providers transform static content into dynamic knowledge assets that grow more valuable over time. This transformation emphasises enhanced relationship mapping capabilities that reveal hidden connections and patterns across content collections, while automated trust tracking systems maintain clear provenance and verification trails throughout the content lifecycle. The evolution enables providers to create richer, more valuable content products while establishing stronger competitive positions in the emerging GenAI-driven content marketplace.
 
 2. **Service Innovation**
    The platform enables providers to develop sophisticated new service offerings that extend far beyond traditional content delivery. Through the creation of verification-as-a-service capabilities, providers can monetise their editorial expertise and trust-building processes in new ways. The emergence of trust network marketplaces establishes new venues for collaboration and value exchange, while expert consultation platforms create direct connections between knowledge holders and consumers. Integration with compliance workflows transforms regulatory requirements from cost centers into value-added services, enabling providers to capture new revenue streams while helping customers meet their governance obligations. This service innovation establishes multiple paths for growth while strengthening providers' strategic positions in the content ecosystem.
@@ -247,16 +247,16 @@ api.guardian.com/
     └── documentation/   # Support evidence
 ```
 
-## Conclusion: A New Framework for AI-Optimised Journalism  
+## Conclusion: A New Framework for GenAI-Optimised Journalism  
 
-The Cyber Boardroom’s framework provides a structured approach for news and content providers to navigate the shift toward AI-driven information ecosystems. While the case studies of The Guardian and The Hacker News illustrate how leading organisations are adapting to this reality, the strategies outlined apply broadly to any publisher producing cybersecurity, business intelligence, or technical content.
+The Cyber Boardroom’s framework provides a structured approach for news and content providers to navigate the shift toward GenAI-driven information ecosystems. While the case studies of The Guardian and The Hacker News illustrate how leading organisations are adapting to this reality, the strategies outlined apply broadly to any publisher producing cybersecurity, business intelligence, or technical content.
 
 For investigative and cybersecurity-focused publishers, the opportunity lies in:
 - **Scaling verification services** into structured, API-accessible trust networks  
-- **Transforming raw content into knowledge graphs** that enhance AI and enterprise integration  
-- **Implementing flexible access models** that align content monetisation with AI-driven demand  
+- **Transforming raw content into knowledge graphs** that enhance GenAI and enterprise integration  
+- **Implementing flexible access models** that align content monetisation with GenAI-driven demand  
 - **Leveraging structured compliance documentation** as a value-added service  
 
 Rather than replacing traditional journalism, these approaches enhance content credibility, discoverability, and long-term monetisation strategies. 
 
-As AI-driven platforms become primary sources of information discovery and decision-making, publishers that structure their content for intelligent consumption will define the future of trusted journalism. This shift is already underway, and organisations that take proactive steps today will be best positioned to lead in the AI-driven media landscape.
+As GenAI-driven platforms become primary sources of information discovery and decision-making, publishers that structure their content for intelligent consumption will define the future of trusted journalism. This shift is already underway, and organisations that take proactive steps today will be best positioned to lead in the GenAI-driven media landscape.
