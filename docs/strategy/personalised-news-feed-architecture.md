@@ -1,4 +1,4 @@
-# The Cyber Boardroom: Personalized News Feed Architecture
+# The Cyber Boardroom: Personalised News Feed Architecture
 
 The modern cybersecurity landscape presents a unique challenge for board members and executives who must make critical decisions while processing an overwhelming volume of technical information. The Cyber Boardroom platform addresses this challenge through its innovative personalized news feed architecture, which transforms complex cybersecurity news into actionable insights tailored to each stakeholder's needs and expertise.
 
