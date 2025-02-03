@@ -31,7 +31,7 @@ Cruz's commitment to open source development has resulted in several significant
 
 - **O2 Platform**: Advanced application security automation toolkit
 - **OSBot Framework**: Versatile security automation and integration platform
-- **Security Bot Project**: Foundation for many of The Cyber Boardroom's current capabilities
+- **Cyber Boardroom**: Core modules for of The Cyber Boardroom's current capabilities
 
 ### Architecture Innovation
 His architectural innovations include:
