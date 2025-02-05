@@ -3,7 +3,7 @@
 ## Introduction
 In an age of rampant digital misinformation, fact provenance—the ability to trace information back to its original source—has emerged as a critical pillar of trustworthy news and analysis. This document examines a structured approach for establishing reliable news ecosystems through transparent sourcing, rigorous verification, and advanced technological tools. 
 
-These principles directly align with **[The Cyber Boardroom: Personalized News Feed Architecture](../strategy/personalised-news-feed-architecture.md)**, where fact provenance underpins the platform’s ability to deliver role-based cybersecurity insights. While The Cyber Boardroom focuses on cybersecurity news personalization, the fact provenance ideas here provide a foundation for scaling trust across broader information ecosystems.  
+These principles directly align with **[The Cyber Boardroom: Personalized News Feed Architecture](https://github.com/the-cyber-boardroom/cbr-investment/blob/dev/docs/strategy/personalised-news-feed-architecture.md)**, where fact provenance underpins the platform’s ability to deliver role-based cybersecurity insights. While The Cyber Boardroom focuses on cybersecurity news personalization, the fact provenance ideas here provide a foundation for scaling trust across broader information ecosystems.  
 
 ---
 
