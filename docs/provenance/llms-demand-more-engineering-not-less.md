@@ -1,10 +1,10 @@
-# More Engineering, Not Less: Why LLMs Demand Architectural Rigor and Critical Thinking
+# More Engineering, Not Less: Why LLMs Demand Architectural Rigour and Critical Thinking
 
 _by Dinis Cruz and ChatGPT o1-pro mode | 11 Feb 2025_
 
 -------
 
-Below is a comprehensive document that captures all the key ideas from the Dinis Cruz audio transcript about why LLMs (Large Language Models) actually *increase* the need for robust engineering—and how critical thinking is integral to making these systems (and our broader technological environments) work effectively. 
+Below is a comprehensive document that captures the key ideas from the Dinis Cruz audio transcript on why LLMs (Large Language Models) actually *increase* the need for robust engineering—and how critical thinking is essential to ensuring these systems (and our broader technological environments) function effectively.
 
 This document weaves together the roles of architecture, development, business, product, agile processes, and the importance of teaching and using critical thinking every day.
 
